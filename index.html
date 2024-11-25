@@ -109,6 +109,9 @@ project, and thus I had to research myself on the parts to use (such as various 
                   <b>&nbsp;&nbsp; 7. Axios:</b> Promise-based HTTP Client for Node.js. It allows the user to make HTTP requests from node.js, such as fetching data from a database.
                   It also performs error handling for the user.
                 </p>
+                <p>
+                  <b>&nbsp;&nbsp; 8. Xlsx:</b> This was used to upload questions and answers from an Excel sheet onto MongoDB directly.
+                </p>
               </p>
             </td>
           </tr>
@@ -196,6 +199,30 @@ project, and thus I had to research myself on the parts to use (such as various 
             });
           });
         </script>
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                  <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <h2>Key Findings:</h2>
+    <p><b>Social Science: </b>ChatGPT seems to struggle with answering social science questions accurately. This may be due to social science topics having more complex theories and interpretations
+      and a lack of definitive answers. 
+    </p>
+    <p><b>History: </b>ChatGPT seems to take longer on history questions, likely due to the longer responses that it generates, as history questions tend to require more information to answer. 
+      It is also more accurate in history questions as information on history is documented and easier to verify.
+    </p>
+    <p><b>Computer Security: </b>ChatGPT was fastest to respond to computer security questions, likely due to computer security having defined principles that are easier to explain in shorter terms.
+      The information on computer security is also more recent and more easily accessable in comparison to history and social science.
+    </p>
+    <h3>Overall:</h3>
+    <p>ChatGPT was approximately 60% accurate in its answers. Its response time is around 1 second per question. ChatGPT4 was interestingly slower than ChatGPT3.5, likely due to
+      attempting to respond with longer answers.
+    </p>
+    <h3>Concluding Remarks:</h3>
+    <p>It was interesting to learn how to connect MongoDB and ChatGPT. Underestanding the Schema to update the database was complicated for me as I struggled to use
+      mongoose. An improvement I would like to have for next time is to figure out a better way to upload questions and answers into the database.
+    </p>
+                  </td>
+                </tr>
+              </tbody></table>
         </td>
       </tr>
     </tbody></table>
